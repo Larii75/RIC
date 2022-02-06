@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
+	<ConfigVersions>
+		<Metadata name="Configuration.РегуляркиТаСпівпадіння" id="3d1126cc-5ed7-450f-a216-132ffc2ec1a3" configVersion="72a765659a51a34fbe8606cfb3b5807d00000000"/>
+		<Metadata name="Configuration.РегуляркиТаСпівпадіння.HomePageWorkArea" id="fa7a723f-0437-4124-a198-9f604518ccd7.8" configVersion="6d1143576b2a4849bae97fe4f335708300000000"/>
+		<Metadata name="DataProcessor.РІС" id="187ad970-f36a-4681-8c75-9d213610ef25" configVersion="cccae0c2b577754f840b6f490067c29100000000">
+			<Metadata name="DataProcessor.РІС.Attribute.Global" id="1f50dab7-6da3-4cf4-b829-8703f6b8fa23"/>
+			<Metadata name="DataProcessor.РІС.Attribute.CaseInsensitive" id="3a054cfe-979f-45bf-98f9-04f014ca0100"/>
+			<Metadata name="DataProcessor.РІС.Attribute.Singleline" id="5f14bf56-0b55-4d05-ad14-b250575ba728"/>
+			<Metadata name="DataProcessor.РІС.Attribute.Паттерн" id="6ca06cac-0cbb-4135-85fc-f50f3fe3a63f"/>
+			<Metadata name="DataProcessor.РІС.Attribute.Unicode" id="c1300ae0-908f-46f6-b914-8a88577af343"/>
+			<Metadata name="DataProcessor.РІС.Attribute.ОбрабатываемаяСтрока" id="dd12eaf0-93ea-4ad5-a545-f358ad333b29"/>
+			<Metadata name="DataProcessor.РІС.Attribute.Multiline" id="f0a3c24e-69c5-44ea-8620-30807b5f5d2e"/>
+		</Metadata>
+		<Metadata name="DataProcessor.РІС.Form.Форма" id="c6991f18-7cfa-45e4-b3f7-cec809fe36e2" configVersion="aae4f0bb63f6924584d26fe362a60a7b00000000"/>
+		<Metadata name="DataProcessor.РІС.Form.Форма.Form" id="c6991f18-7cfa-45e4-b3f7-cec809fe36e2.0" configVersion="21550b8975daab4fb547b746a5860eb100000000"/>
+		<Metadata name="Language.Русский" id="8a65b787-8ef1-4f28-af3d-a51da9ca64c9" configVersion="b6de67478f6b564a977dc90c705dd7bc00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

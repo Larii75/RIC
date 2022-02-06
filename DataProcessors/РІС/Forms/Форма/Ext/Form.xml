@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОбработатьНаСервере" id="4">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОбработатьНаСервере</CommandName>
+				<ExtendedTooltip name="ФормаОбработатьНаСервереРасширеннаяПодсказка" id="5"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Флаги" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Флаги</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Флаги</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ФлагиРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<CheckBoxField name="Global" id="15">
+					<DataPath>Объект.Global</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="GlobalКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="GlobalРасширеннаяПодсказка" id="17"/>
+				</CheckBoxField>
+				<CheckBoxField name="CaseInsensitive" id="18">
+					<DataPath>Объект.CaseInsensitive</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="CaseInsensitiveКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="CaseInsensitiveРасширеннаяПодсказка" id="20"/>
+				</CheckBoxField>
+				<CheckBoxField name="Multiline" id="21">
+					<DataPath>Объект.Multiline</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="MultilineКонтекстноеМеню" id="22"/>
+					<ExtendedTooltip name="MultilineРасширеннаяПодсказка" id="23"/>
+				</CheckBoxField>
+				<CheckBoxField name="Singleline" id="24">
+					<DataPath>Объект.Singleline</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="SinglelineКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="SinglelineРасширеннаяПодсказка" id="26"/>
+				</CheckBoxField>
+				<CheckBoxField name="Unicode" id="27">
+					<DataPath>Объект.Unicode</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="UnicodeКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="UnicodeРасширеннаяПодсказка" id="29"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="11">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="12"/>
+			<ChildItems>
+				<InputField name="Паттерн" id="6">
+					<DataPath>Объект.Паттерн</DataPath>
+					<ContextMenu name="ПаттернКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="ПаттернРасширеннаяПодсказка" id="8"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ПутьКФайлуНаСервере" id="30">
+			<DataPath>ПутьКФайлуНаСервере</DataPath>
+			<ContextMenu name="ПутьКФайлуНаСервереКонтекстноеМеню" id="31"/>
+			<ExtendedTooltip name="ПутьКФайлуНаСервереРасширеннаяПодсказка" id="32"/>
+			<Events>
+				<Event name="OnChange">ПутьКФайлуНаСервереПриИзменении</Event>
+			</Events>
+		</InputField>
+		<UsualGroup name="Группа1" id="9">
+			<EnableContentChange>true</EnableContentChange>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<InputField name="ОбрабатываемаяСтрока" id="1">
+					<DataPath>Объект.ОбрабатываемаяСтрока</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>6</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<MultiLine>true</MultiLine>
+					<ContextMenu name="ОбрабатываемаяСтрокаКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ОбрабатываемаяСтрокаРасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="OnChange">ОбрабатываемаяСтрокаПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РІС</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ПутьКФайлуНаСервере" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь к файлу на сервере</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбработатьНаСервере" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать на сервере</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать на сервере</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НаСервере2</Action>
+		</Command>
+	</Commands>
+</Form>
